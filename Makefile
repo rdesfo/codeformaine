@@ -9,7 +9,7 @@ deps_js:
 	./node_modules/.bin/gulp sass
 
 deps:
-	sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk libxslt-dev libxml2-dev
+	apt-get install -y libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk libxslt-dev libxml2-dev nodejs npm
 	npm install
 	
 
